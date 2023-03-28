@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KIAS_PROJECT_socket_api_win", "KIAS_PROJECT_socket_api_win\KIAS_PROJECT_socket_api_win.csproj", "{B1512BDE-11E9-42A6-86A7-F9125EE236F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1512BDE-11E9-42A6-86A7-F9125EE236F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1512BDE-11E9-42A6-86A7-F9125EE236F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1512BDE-11E9-42A6-86A7-F9125EE236F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1512BDE-11E9-42A6-86A7-F9125EE236F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380A6ABF-064F-4011-835A-27C1A65CB0C3}
+	EndGlobalSection
+EndGlobal
