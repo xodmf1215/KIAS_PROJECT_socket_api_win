@@ -13,7 +13,7 @@ namespace KIAS_PROJECT_socket_api_win
 {
     public partial class Form1 : Form
     {
-        private SocketServer socketServer = null;
+        private MiniServer socketServer = null;
         TextWriter _writer = null;
         public Form1()
         {
@@ -23,8 +23,16 @@ namespace KIAS_PROJECT_socket_api_win
             // Redirect the out Console stream
             Console.SetOut(_writer);
 
-            socketServer = new SocketServer(this);
+            socketServer = new MiniServer(this);
             socketServer.StartServer();
+        }
+        public int Connect()
+        {
+            return axKHOpenAPI1.CommConnect();
+        }
+        public void GetLoginState()
+        {
+
         }
     }
 }
